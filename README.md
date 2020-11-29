@@ -154,3 +154,103 @@ setelah itu jalankan perintah service isc-dhcp-server restart dan akan mendapatk
 </center>
 
 <br>
+
+7.
+```
+ketik perintah tersebut di uml mojokerto
+```
+
+<center>
+  
+![img](/img/7.2.png)
+
+</center>
+
+<br>
+
+```
+setelah itu ubah file squid.conf seperti berikut
+```
+
+<center>
+  
+![img](/img/7.3.png)
+
+</center>
+
+<br>
+
+```
+maka akan menghasilkan
+```
+
+<center>
+  
+![img](/img/7.4.png)
+
+</center>
+
+<br>
+
+8-10.
+```
+buat file acl.conf di squid3 pada uml mojokerto seperti berikut
+```
+
+<center>
+  
+![img](/img/waktu.png)
+
+</center>
+
+<br>
+
+```
+dan di squid.conf seperti berikut
+```
+
+<center>
+  
+![img](/img/config.png)
+
+</center>
+
+<br>
+
+11.
+```
+rm ERR_ACCESS_DENIED di /usr/share/squid/errors/English pada uml mojokerto lalu download dengan perintah wget 10.151.36.202/ERR_ACCESS_DENIED
+```
+
+<center>
+  
+![img](/img/error.png)
+
+</center>
+
+<br>
+
+12.
+```
+buat file janganlupa-ta.d10.pw seperti berikut
+```
+
+<center>
+  
+![img](/img/12a.png)
+
+</center>
+
+<br>
+
+```
+dan file named.conf.local seperti berikut
+```
+
+<center>
+  
+![img](/img/12b.png)
+
+</center>
+
+<br>
